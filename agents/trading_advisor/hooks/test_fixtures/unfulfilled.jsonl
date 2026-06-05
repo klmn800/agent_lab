@@ -1,0 +1,3 @@
+{"type": "user", "message": {"role": "user", "content": "Can you set up the directive for tomorrow's research session?"}}
+{"type": "assistant", "message": {"role": "assistant", "content": [{"type": "text", "text": "Got it. I'll write the directive covering the alert-alpha typology pilot scope and post it before signing off."}]}}
+{"type": "assistant", "message": {"role": "assistant", "content": [{"type": "text", "text": "Anything else you want me to cover tonight?"}]}}

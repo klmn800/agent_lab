@@ -1,0 +1,4 @@
+{"type": "user", "message": {"role": "user", "content": "Can you set up the directive for tomorrow's research session?"}}
+{"type": "assistant", "message": {"role": "assistant", "content": [{"type": "text", "text": "Got it. I'll write the directive covering the alert-alpha typology pilot scope and post it before signing off."}]}}
+{"type": "assistant", "message": {"role": "assistant", "content": [{"type": "tool_use", "id": "tool_01", "name": "Write", "input": {"file_path": "directive.md", "content": "..."}}]}}
+{"type": "assistant", "message": {"role": "assistant", "content": [{"type": "text", "text": "Done — directive written."}]}}

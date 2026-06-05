@@ -1,0 +1,2 @@
+{"type": "user", "message": {"role": "user", "content": "What do you make of the DVN flow today?"}}
+{"type": "assistant", "message": {"role": "assistant", "content": [{"type": "text", "text": "DVN's bid-side prints look like merger-arb hedging more than directional positioning. I don't see a tradable setup in the structure."}]}}
