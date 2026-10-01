@@ -183,7 +183,7 @@ unless the match is allowlisted (A6).
 
 ### Part D — Mailbox notification hook
 
-**D1.** A **global** Claude Code `SessionStart` hook, configured in Ben's user settings (`~/.claude/settings.json`, synced through `claude-config`), must check every agent's `outbox/for_ben.md` for content Ben hasn't been shown yet.
+**D1.** A **global** Claude Code `SessionStart` hook, registered in Ben's user settings (`~/.claude/settings.json`, which is machine-local; the hook script and a matching entry in `settings.template.json` travel through `claude-config`), must check every agent's `outbox/for_ben.md` for content Ben hasn't been shown yet.
 
 **D2.** The outboxes to check must be listed in a small config file (a list of agent-workspace roots or glob patterns, e.g. `E:\solutions_laboratory\agent_lab\agents\*\outbox\for_ben.md`), so new agents are picked up without code changes. Paths that don't exist on a machine (e.g. the work laptop) are skipped silently.
 
