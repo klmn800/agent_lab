@@ -185,7 +185,7 @@ unless the match is allowlisted (A6).
 
 **D1.** A **global** Claude Code `SessionStart` hook, configured in Ben's user settings (`~/.claude/settings.json`, synced through `claude-config`), must check every agent's `outbox/for_ben.md` for content Ben hasn't been shown yet.
 
-**D2.** The outboxes to check must be listed in a small config file (a list of agent-workspace roots or glob patterns, e.g. `E:\solutions_laboratorygent_labgents\*\outboxor_ben.md`), so new agents are picked up without code changes. Paths that don't exist on a machine (e.g. the work laptop) are skipped silently.
+**D2.** The outboxes to check must be listed in a small config file (a list of agent-workspace roots or glob patterns, e.g. `E:\solutions_laboratory\agent_lab\agents\*\outbox\for_ben.md`), so new agents are picked up without code changes. Paths that don't exist on a machine (e.g. the work laptop) are skipped silently.
 
 **D3.** When there is new content, the hook must show Ben a short notice at session start: which agents have messages, how many new entries each, and the newest entry's `##` header. It must also pass the same summary to Claude as session context, so Ben can say "read me my messages" and Claude knows where they are.
 
